@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1>Derrick Boateng</h1>
-      <h3>Fullstack Engineer</h3>
+      <h1 class="main-header" id="first-header">Derrick Boateng</h1>
+      <h3 class="sub-header">Fullstack Engineer</h3>
       <address>
         Plot 15 Block A,<br />
         kumasi, Ghana.<br />
@@ -17,12 +18,12 @@
       </address>
     </header>
     <main>
-      <h2>Professional Summary</h2>
-      <p>
-        Analytical thinking DevOps Engineer focused on applying DevSecOps
+      <h2 class="mini-header">Professional Summary</h2>
+      <p class="para">
+        Analytical thinking <strong>DevOps Engineer</strong> focused on applying <b>DevSecOps</b>
         engineering principles using traditional and innovative methods,
         ensuring seamless software integration and delivery security. Dedicated
-        to building and managing CI/CD pipelines, automating cloud
+        to building and managing <em>CI/CD</em> pipelines, automating cloud
         infrastructure management and provisioning using IaC tools, and
         implementing robust monitoring and security practices. Committed to
         optimizing performance, leading incident management, and fostering a
@@ -30,8 +31,8 @@
         skills, I can enhance efficiency, reliability, and high availability
         across all Software development platforms.
       </p>
-      <h2>Technical Skills</h2>
-      <ul>
+      <h2 class="mini-header" >Technical Skills</h2>
+      <ul class="skills">
         <li>CI/CD Pipelines</li>
         <li>Infrastructure as Code (IaC)</li>
         <li>Cloud Computing</li>
@@ -42,13 +43,13 @@
       </ul>
       <article>
         <section>
-          <h2>Experience</h2>
-          <h3>
+          <h2 class="mini-header">Experience</h2>
+          <h3 class="sub-header">
             <span>Jomacs It Solution</span> -
             <span>Fullstack Engineer</span>
           </h3>
-          <p>January 2020 - Present</p>
-          <ul>
+          <p class="para">January 2020 - Present</p>
+          <ul class="experience">
             <li>
               Developed and implemented multiple CI/CD pipelines using Jenkins,
               GitLab CI/CD, and GitHub Actions to automate the software delivery
@@ -68,7 +69,7 @@
       </article>
     </main>
     <footer>
-      <p>&copy; 2025 Derrick Boateng. All right reserved.</p>
+      <p class="foot-para">&copy; 2025 Derrick Boateng. All right reserved.</p>
     </footer>
   </body>
 </html>
